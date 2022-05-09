@@ -1,5 +1,5 @@
 {% set name = "fastapi-users-db-sqlalchemy" %}
-{% set version = "4.0.2" %}
+{% set version = "4.0.3" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 83c645de85c10cb0bbf9f8bdf1c55361326275d757b38c90e523ac24d9fd703c
+  sha256: 7d223742e687cf386bea4e990d6ca8571185c50f365301a34e8eb14ebbda18b2
 
 build:
   number: 0
