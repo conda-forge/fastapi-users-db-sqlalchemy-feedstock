@@ -1,5 +1,5 @@
 {% set name = "fastapi-users-db-sqlalchemy" %}
-{% set version = "4.0.4" %}
+{% set version = "4.0.5" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 4e44a7de070ba853e2bee3cefb3d7f084c09dafeceb9f8c5f04b2b92768246f4
+  sha256: c626a82af6c421cab791055355944bab2779a26b3a25a4dba11d459aaa17f66a
 
 build:
   number: 0
@@ -25,7 +25,7 @@ requirements:
   run:
     - python >=3.7
     - fastapi-users >=10.0.0
-    - sqlalchemy >=1.4
+    - sqlalchemy >=1.4,<2.0.0
 
 test:
   imports:
