@@ -1,11 +1,11 @@
-About fastapi-users-db-sqlalchemy
-=================================
+About fastapi-users-db-sqlalchemy-feedstock
+===========================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/fastapi-users-db-sqlalchemy-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/fastapi-users/fastapi-users-db-sqlalchemy
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/fastapi-users-db-sqlalchemy-feedstock/blob/main/LICENSE.txt)
 
 Summary: FastAPI Users - Database adapter for SQLAlchemy + encode/databases
 
